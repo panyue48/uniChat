@@ -1,0 +1,36 @@
+{
+    "easycom": {
+        "autoscan": true,
+        "custom": {
+            "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+        }
+    },
+    "pages": [
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "AI 问答助手",
+                "navigationBarBackgroundColor": "#f7f7f7",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": false
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uniChat",
+        "navigationBarBackgroundColor": "#f7f7f7",
+        "backgroundColor": "#f7f7f7"
+    },
+    "condition": {
+        "current": 0,
+        "list": [
+            {
+                "name": "聊天页面",
+                "path": "pages/index/index",
+                "query": ""
+            }
+        ]
+    }
+}
+

@@ -1,0 +1,18 @@
+{
+    "name": "uniChat",
+    "version": "1.0.0",
+    "description": "微信小程序 RAG-AI 问答助手",
+    "type": "module",
+    "scripts": {
+        "dev:mp-weixin": "vite",
+        "build:mp-weixin": "vite build"
+    },
+    "dependencies": {
+        "vue": "^3.4.21"
+    },
+    "devDependencies": {
+        "@dcloudio/vite-plugin-uni": "^3.0.0-alpha-4020420240930001",
+        "@dcloudio/types": "^3.4.8",
+        "vite": "^5.0.0"
+    }
+}
